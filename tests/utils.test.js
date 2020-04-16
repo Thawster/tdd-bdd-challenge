@@ -59,9 +59,14 @@ it("Should create a new (object) Item with name and price", function() {
   expect(item).to.have.property("quantity", 1)
 })
 
-it("Should return an array containing all items in cart")
+it("Should return an array containing all items in cart", function()) {
 
-it("Should add a new item to the shopping cart")
+}
+
+it("Should add a new item to the shopping cart", function()) {
+  const apple = utils.createItem("apple", 0.99)
+  const banana = utils.createItem("banana", 1.29)
+}
 
 it("Should return the number of items in the cart")
 
